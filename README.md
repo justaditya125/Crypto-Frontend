@@ -1,59 +1,109 @@
-# Welcome to project
+**🚀 Crypto Tracker Frontend**
 
-## Project info
+A sleek, modern UI frontend for a Crypto Tracker web application where users can:
 
-## How can I edit this code?
+* 🔐 Sign up and log in securely
 
-There are several ways of editing your application.
+* 💼 Manage their personal crypto portfolio
 
-Follow these steps:
+* 🔗 Connect to external crypto wallets (like MetaMask)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* 📊 Track and display real-time cryptocurrency data
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+**🖼️ Features**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+* Authentication
+
+* User Signup & Login functionality
+
+* Secure form validations and token handling
+
+* Crypto Portfolio Management
+
+* Add cryptocurrencies to personal wallet
+
+* View updated list of owned cryptos
+
+* Wallet Integration
+
+* Connect external crypto wallets (e.g., MetaMask)
+
+* Sync balances and addresses securely
+
+* Modern UI
+
+* Built with responsive design principles
+
+* Dark mode support (optional)
+
+* Interactive charts and market data 
+
+
+**🔧 Tech Stack**
+
+* Frontend: React.js (or your preferred framework)
+
+* Styling: Tailwind CSS / Bootstrap / Styled Components
+
+* State Management: Redux / Context API (if used)
+
+* Wallet Integration: Web3.js / Ethers.js
+
+* Authentication: JWT / Firebase Auth (mention your backend setup here if applicable)
+
+**🚀 Getting Started**
+
+1. Clone the Repository
+```
+git clone https://github.com/your-username/crypto-tracker-frontend.git
+cd crypto-tracker-frontend
 ```
 
-**Edit a file directly in GitHub**
+2. Install Dependencies
+```
+npm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Run the Development Server
+```
+npm start
+```
 
-**Use GitHub Codespaces**
+**🔑 Environment Variables**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Create a .env file in the root and add:
+```
+REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_WALLET_CONNECT_KEY=your_key_here
+(Update keys as per your integration – e.g., Moralis, Alchemy, etc.)
+```
 
-## What technologies are used for this project?
+📁 Folder Structure
 
-This project is built with:
+src/
+│
+├──frontend           
+├── Server/      
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+✅ Todo / Future Improvements
 
-## How can I deploy this project?
+✅ Add user authentication
 
-Simply open [Lovable](https://lovable.dev/projects/cc070aa1-4719-4ccb-96f5-dcbc98d50267) and click on Share -> Publish.
+✅ Connect crypto wallet
 
-## Can I connect a custom domain to my Lovable project?
+✅ UI for adding crypto to wallet
 
-Yes, you can!
+⏳ Add real-time crypto price charts
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+⏳ Multi-language support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📸 Demo
+Include screenshots or a link to a live demo if available.
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
+
+📄 License
+This project is licensed under the MIT License.
