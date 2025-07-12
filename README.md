@@ -44,13 +44,13 @@ A sleek, modern UI frontend for a Crypto Tracker web application where users can
 
 * Frontend: React.js (or your preferred framework)
 
-* Styling: Tailwind CSS / Bootstrap / Styled Components
+* Styling: Tailwind CSS 
 
-* State Management: Redux / Context API (if used)
+* State Management: Context API 
 
-* Wallet Integration: Web3.js / Ethers.js
+* Wallet Integration: Ethers.js
 
-* Authentication: JWT / Firebase Auth (mention your backend setup here if applicable)
+* Authentication: JWT 
 
 **🚀 Getting Started**
 
